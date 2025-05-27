@@ -19,7 +19,7 @@ def update_patient_data(name: str, age: int):
     if type(name) == str and type(age) == int:
 
         if age < 0:
-            raise ValueError('Age Can't be negative) # This is called an Data Validation 
+            raise ValueError('Age cannot be negative') # This is called an Data Validation 
         else:
             print(name)
             print(age)
