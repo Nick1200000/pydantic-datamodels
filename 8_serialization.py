@@ -1,7 +1,7 @@
 # We can export Pydantic data models objects in 2 Formats
 # 1. Json(object.model_dump_json())
 # 2. Dictionary(object.model_dump())
-# Pydantic also gives us a Freedom what we are wanted to ecxport using the keywords:
+# Pydantic also gives us a Freedom what we are wanted to export using the keywords:
 # include, exclude, exclude_unset
 
 
